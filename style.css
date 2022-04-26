@@ -1,0 +1,34 @@
+body{
+    font-family: 'Dosis',
+    sans-serif;
+    color: #fff;
+    background-image: url(./images/IMG_2731.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body img{
+    
+}
+
+#navbar{
+    display: flex;
+    /* border: solid red; */
+    justify-content: space-between;
+}
+
+#logo{
+    border: solid;
+    padding: 0.25em;
+}
+#menu{
+    display: flex;
+    list-style: none;
+    /* border: solid; */
+    
+}
+
+#menu li{
+    margin: 1em;
+}
