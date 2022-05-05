@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,13 +13,35 @@
     <nav id="navbar">
         <div id="logo">SYXXshoots</div>
         <ul id="menu">
-            <li>Home</li>
-            <li>Categories</li>
-            <li>Contact</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="">Contact</a></li>
         </ul>
     </nav>
-    <div id="slideshow"></div>
+    <!-- <div class="slideshow"></div> -->
 
+    <div class="wrap">
+        <div id="arrow-left" class="arrow"></div>
+        <div id="slider">
+            <div class="slide slide1">
+                <div class="slide-content" >
+                    <!-- <span>Image One</span> -->
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="slide-content">
+                    <!-- <span>Image Two</span> -->
+                </div>
+            </div>
+            <div class="slide slide3">
+                <div class="slide-content">
+                    <!-- <span>Image Three</span> -->
+                </div>
+            </div>
+        </div>
+        <div id="arrow-right" class="arrow"></div>
+    </div>
+    <script src="app.js"></script>
 </body>
 <!-- <footer>
     <img src="#" alt="instagram-logo"/>
