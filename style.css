@@ -20,14 +20,27 @@ body{
 
 #logo{
     border: solid;
+    border-width: thick;
+    border-bottom: black;
     padding: 0.25em;
 }
+
+#green-letter{
+color: #02bd02;
+font-weight: bold;
+}
+
 #menu{
     display: flex;
     list-style: none;
     /* border: solid; */
     text-decoration: none;
     
+}
+
+#menu a:hover{
+    color:#02bd02;
+    cursor: pointer;
 }
 
 #menu li{
@@ -111,6 +124,8 @@ body,
     height: 0;
     border-style: solid;
 }
+
+
 
 #arrow-left {
     border-width: 15px 20px 15px 0;
