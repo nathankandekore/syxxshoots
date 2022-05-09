@@ -3,7 +3,7 @@ body{
     sans-serif;
     color: #fff;
     /* background-color: black; */
-    background: linear-gradient(black, white);
+    background: linear-gradient(#1c1c1c, white);
    
     
 
@@ -21,11 +21,11 @@ body{
 #logo{
     border: solid;
     border-width: thick;
-    border-bottom: black;
+    border-bottom: #1c1c1c;
     padding: 0.25em;
 }
 
-#green-letter{
+.green-letter{
 color: #02bd02;
 font-weight: bold;
 }
@@ -141,6 +141,9 @@ body,
     margin-right: 30px;
 }
 
+.social-container {
+    
+}
 
 
 

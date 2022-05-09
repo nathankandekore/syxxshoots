@@ -5,7 +5,7 @@ body {
    margin: 0;
    
     /* background: #333; */
-    background: linear-gradient(black, #404040 );
+    background: linear-gradient(#1c1c1c, #404040 );
     
     font-family: 'Dosis',
     sans-serif;
@@ -26,11 +26,11 @@ body {
 #logo {
     border: solid;
     border-width: thick;
-    border-bottom: black;
+    border-bottom: #1c1c1c;
     padding: 0.25em;
 }
 
-#green-letter {
+.green-letter {
     color: #02bd02;
     font-weight: bold;
 }
@@ -102,12 +102,13 @@ max-height:100%;
 /* CONTACT FORM */
 
 .input {
-padding: 15px;
+padding: 12px;
 border-radius: 25px;
 border: none;
-margin: 0.5em;
+margin-bottom: 0.5em;
+/* margin: 0.5em; */
 font: inherit;
-color: black;
+color: #1c1c1c;
 /* background: linear-gradient(right, grey, white); */
 background-color: #edebeb;
 
@@ -118,28 +119,41 @@ background-color: #edebeb;
 #flex-container{
     display: flex;
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     /* border: solid yellow; */
-    background-image: url("images/jason-wong-uBn9T18v4iU-unsplash.jpg");
+    /* background-image: url("images/jason-wong-uBn9T18v4iU-unsplash.jpg"); */
 
 }
 
 #user-form-container{
     /* border: solid red; */
-   
-    
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10em;
+    margin-bottom: 15em;
+    background-color: #1c1c1c;
+    border-radius: 10px; 
 }
 
 #user-form{
     
     
     
-    margin-left: 190px;
+    /* margin-left: 190px;
     padding: 150px;
-    align-self: auto;
+    align-self: auto; */
 }
 
 #contact-img{
     /* opacity: 20%; */
     
+}
+
+#social-container{
+border: #02bd02;
+}
+
+.fa-intagram {
+    size: 20px;
 }
