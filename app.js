@@ -57,3 +57,14 @@ arrowRight.addEventListener("click", () => {
 });
 
 startSlide();
+
+function slideAuto() {
+  reset();
+  sliderImages[current + 1].style.display = "block";
+  current++;
+  if (current === sliderImages.length - 1) {
+    current = -1;
+  }
+}
+
+setInterval(slideAuto, 5000);
