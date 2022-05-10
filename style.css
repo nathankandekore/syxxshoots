@@ -102,6 +102,16 @@ body,
     
 }
 
+.slide4 {
+    background-image: url("images/EOSR0183.jpg");
+
+}
+
+.slide5 {
+    background-image: url("images/EOSR0252.jpg");
+
+}
+
 .slide-content {
     display: flex;
     flex-direction: column;

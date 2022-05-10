@@ -78,25 +78,27 @@ a {
 .img-zoom {
 max-width:100%;
 max-height:100%;
+object-fit: fill;
 
 }
 
 .img-container:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     z-index: 1;
     
 }
 
 
-.imgs {
+#imgs {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 
 }
 
-.imgs img {
+#imgs img {
     cursor: pointer;
     /* border: white solid; */
+
 }
 
 /* CONTACT FORM */
@@ -121,9 +123,16 @@ background-color: #edebeb;
     width: 100vw;
     height: 100vh;
     /* border: solid yellow; */
-    /* background-image: url("images/jason-wong-uBn9T18v4iU-unsplash.jpg"); */
+    background-image: url("images/EOSR0610 - 3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center
+    
+    
 
 }
+
+
 
 #user-form-container{
     /* border: solid red; */
@@ -131,10 +140,24 @@ background-color: #edebeb;
     margin-left: auto;
     margin-right: auto;
     margin-top:10em;
-    margin-bottom: 15em;
+    margin-bottom: 200px;
     background-color: #1c1c1c;
     border-radius: 10px; 
 }
+
+#submit-btn{
+    background-color: #02bd02;
+    color:#fff;
+    float: right;
+    border-radius: 10px;
+    border: none;
+    padding: 3px 6px 3px 6px
+}
+
+#submit-btn:hover{
+cursor: pointer;
+}
+
 
 #user-form{
     
@@ -151,9 +174,20 @@ background-color: #edebeb;
 }
 
 #social-container{
-border: #02bd02;
+/* border: red solid; */
+display: flex;
+margin-top: 1.5em;
+justify-content: space-around;
+padding-top: 30px;
+
 }
 
 .fa-intagram {
-    size: 20px;
+    font-size: 30px;
 }
+
+.fa-brands:hover{
+    color: #02bd02;
+    cursor: pointer;
+}
+
