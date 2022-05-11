@@ -2,20 +2,14 @@ body{
     font-family: 'Dosis',
     sans-serif;
     color: #fff;
-    /* background-color: black; */
     background: linear-gradient(#1c1c1c, white);
-   
-    
-
 }
 
 
 #navbar{
-    display: flex;
-    /* border: solid red; */
+    display: flex;  
     justify-content: space-between;
     padding: 5px;
-
 }
 
 #logo{
@@ -33,9 +27,7 @@ font-weight: bold;
 #menu{
     display: flex;
     list-style: none;
-    /* border: solid; */
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 
 #menu a:hover{
@@ -80,36 +72,31 @@ body,
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* transition: transform 300ms ease-out,
-    background-image 200ms ease-out; */
 }
 
 
 .slide1 {
-
-    background-image: url("images/cameron.jpg");
-    
-    
+    background-image: url("images/cameron.jpg");   
 }
 
 .slide2 {
-    background-image: url("images/pool.jpg");
-    
+    background-image: url("images/pool.jpg");   
 }
 
 .slide3 {
-    background-image: url("images/ducks.jpg");
-    
+    background-image: url("images/ducks.jpg");   
 }
 
 .slide4 {
     background-image: url("images/EOSR0183.jpg");
-
 }
 
 .slide5 {
     background-image: url("images/EOSR0252.jpg");
+}
 
+.slide6{
+    background-image: url("images/Copy of IMG_2629.jpg");
 }
 
 .slide-content {
@@ -151,9 +138,7 @@ body,
     margin-right: 30px;
 }
 
-.social-container {
-    
-}
+
 
 
 

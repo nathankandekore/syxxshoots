@@ -1,24 +1,18 @@
 
 
 body {
-   
-   margin: 0;
-   
-    /* background: #333; */
+    margin: 0;
     background: linear-gradient(#1c1c1c, #404040 );
-    
-    font-family: 'Dosis',
-    sans-serif;
+    font-family: 'Dosis',sans-serif;
     color: #fff;
-    
 }
+
  /* NAVBAR */
 
 
 #navbar {
     padding: 5px;
     display: flex;
-    /* border: solid red; */
     justify-content: space-between;
 
 }
@@ -38,8 +32,6 @@ body {
 #menu {
     display: flex;
     list-style: none;
-    /* border: solid; */
-
 }
 
 #menu a:hover {
@@ -66,7 +58,6 @@ a {
   width: 300px;
   border: grey solid;
   margin: 5px;
-  /* transition: transform 500ms; */
 }
 
 .img-container img {
@@ -102,8 +93,6 @@ object-fit: fill;
 
 #imgs img {
     cursor: pointer;
-    /* border: white solid; */
-
 }
 
 /* CONTACT FORM */
@@ -113,11 +102,8 @@ padding: 12px;
 border-radius: 25px;
 border: none;
 margin-bottom: 0.5em;
-
-/* margin: 0.5em; */
 font: inherit;
 color: #1c1c1c;
-/* background: linear-gradient(right, grey, white); */
 background-color: #edebeb;
 
 
@@ -128,20 +114,15 @@ background-color: #edebeb;
     display: flex;
     width: 100vw;
     height: 100vh;
-    /* border: solid yellow; */
     background-image: url("images/EOSR0610 - 3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center, center
-    
-    
-
 }
 
 
 
 #user-form-container{
-    /* border: solid red; */
     padding: 2em;
     margin-left: auto;
     margin-right: auto;
@@ -165,27 +146,15 @@ cursor: pointer;
 }
 
 
-#user-form{
-    
-    
-    
-    /* margin-left: 190px;
-    padding: 150px;
-    align-self: auto; */
-}
 
-#contact-img{
-    /* opacity: 20%; */
-    
-}
+
+
 
 #social-container{
-/* border: red solid; */
 display: flex;
 margin-top: 1.5em;
 justify-content: space-around;
 padding-top: 30px;
-
 }
 
 .fa-intagram {
@@ -222,19 +191,11 @@ padding-top: 30px;
     }
 
     #submit-btn{
-/* border: solid red; */
-width: 100%;
-    
-       
+        width: 100%;  
     }
 
     #user-form input{
         width: 88%;
-        /* border: yellow solid; */
-
     }
 
-    #social-container{
-        /* border: solid red; */
-    }
 }

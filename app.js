@@ -1,12 +1,4 @@
-let sliderImages = document.querySelectorAll(".slide");
-
-// let sliderImages = [
-//   "images/cameron.jpg",
-//   "images/ducks.jpg",
-//   "images / pool.jpg",
-// ];
-
-// let arrowLeft = document.querySelector("#arrow-left");
+const sliderImages = document.querySelectorAll(".slide");
 const arrowLeft = document.getElementById("arrow-left");
 const arrowRight = document.getElementById("arrow-right");
 let current = 0;
@@ -37,10 +29,9 @@ function slideRight() {
   sliderImages[current + 1].style.display = "block";
   current++;
 }
-console.log(arrowRight);
+
 // Left arrow click
 arrowLeft.addEventListener("click", () => {
-  console.log("left");
   if (current == 0) {
     current = sliderImages.length;
   }
@@ -49,7 +40,6 @@ arrowLeft.addEventListener("click", () => {
 
 // Right arrow click
 arrowRight.addEventListener("click", () => {
-  console.log("right");
   if (current === sliderImages.length - 1) {
     current = -1;
   }
